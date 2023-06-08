@@ -3,7 +3,7 @@
   "name": "News Summary",
   "version": "1.0",
   "description": "Summarizes the day's biggest news stories.",
-  "permissions": ["http://api.example.com/"], // Update with the actual news API URL
+  "permissions": ["https://apnews.com//"], // Update with the actual news API URL
   "background": {
     "scripts": ["background.js"],
     "persistent": false
