@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(function () {
 
 function fetchNews() {
   // Make an API request to fetch the news data
-  fetch("http://api.example.com/news") // Update with the actual news API URL
+  fetch("https://apnews.com/")
     .then((response) => response.json())
     .then((data) => {
       // Process the news data and store the summaries
